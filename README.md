@@ -12,10 +12,15 @@ för test av end points/ api.et kan ni använda postman
 DTOs...
 
 för att göra en order, gör en post till http://localhost:8080/orders
+
 JSON formatet ska se ut som nedan
+
 en lista av orderitems med parameterarna bookId och quantity. varje id representerar en book id, quantity är hur många man vill köpa. programmet har 4 olika böcker i stock med id 1 2 3 4.
+
 {
+
   "orderItems": [
+
     {
       "bookId": 1,
       "quantity": 2
@@ -28,7 +33,8 @@ en lista av orderitems med parameterarna bookId och quantity. varje id represent
 }
 
 
-för att hämta alla booker
+för att hämta alla booker,
+
 skicka en get till http://localhost:8080/Book/allBooks
 
 
