@@ -41,6 +41,7 @@ skicka en get till http://localhost:8080/Book/allBooks
 
 för att restocka skicka en put till http://localhost:8080/Book/admin/restock
 JSON ska se ut så här
+
 {
   "bookId": 3,
   "quantity": 13
