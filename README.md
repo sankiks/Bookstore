@@ -10,6 +10,7 @@ java -jar Bookstore-0.0.1-SNAPSHOT.jar
 för test av end points/ api.et kan ni använda postman
 
 DTOs...
+
 för att göra en order, gör en post till http://localhost:8080/orders
 JSON formatet ska se ut som nedan
 en lista av orderitems med parameterarna bookId och quantity. varje id representerar en book id, quantity är hur många man vill köpa. programmet har 4 olika böcker i stock med id 1 2 3 4.
