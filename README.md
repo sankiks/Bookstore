@@ -1,7 +1,6 @@
 projektet körs på jdk 17 så see till att den är installerad
-projektet är byggd i springboot som maven projekt
-
-projektet innehåller en runnable jar file.
+projektet är byggd i springboot som maven projekt, för att bygga projektet du behöver köra mvn clean install från terminalen eller ramverket där du importerat projektet.
+Det skapar en runnable jar fil som du kan använda för att starta projektet.
 den hittar ni under bookstore/bookstore/target/Bookstore-0.0.1-SNAPSHOT.jar
 
 För att köra jar filen öppna cmd där jar filen ligger och skriv
